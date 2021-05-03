@@ -1,0 +1,69 @@
+QPushButton[text="SignIn"]
+{
+position:flex;
+color: gray;
+background-color:skyblue;
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+min-width: 10em;
+padding: 6px;
+}
+
+
+QPushButton[text="SignIn"]:hover
+{
+color:white;
+background-color:lightskyblue;
+}
+
+
+QPushButton[text="Cancel"]
+{
+position:flex;
+color: gray;
+background-color:skyblue;
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+min-width: 10em;
+padding: 6px;
+}
+
+
+QPushButton[text="Cancel"]:hover
+{
+color:white;
+background-color:lightskyblue;
+}
+
+
+QGroupBox {
+background-color:white;
+border: 2px gray;
+border-radius: 5px;
+subcontrol-margin-top: 10px;
+}
+
+
+QGroupBox::title {
+subcontrol-origin: margin;
+subcontrol-position: top center;
+padding: 0px 5px 0px 5px;
+
+}
+
+QLineEdit {
+border: 2px solid gray;
+border-radius: 10px;
+padding: 0 8px;
+background: white;
+background-color: darkgray;
+}
+
+QLabel{
+color:black;
+}
+QLineEdit:hover{
+background-color:white;
+}
